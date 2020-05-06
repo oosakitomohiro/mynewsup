@@ -42,7 +42,7 @@
                            
                            <!-- Authentication Links -->
                            @guest
-                           <li><a class="nav-link" href="{{ route('login') }}">{{ _('Login') }}</a></li>
+                           <li><a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a></li>
                           
                           @else
                           <li class="nav-item dropdown">
@@ -51,16 +51,16 @@
                            </a>
                            
                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class"dropdown-item" href="{{ route('logout') }}"onclick="event.preventDefault(); document.getElementById('logout-form').submit()">
-                             {{ _('Logout') }}
+                            <a class="dropdown-item" href="{{ route('logout') }}"　onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
+                             {{ __('Logout') }}
                             </a>
                             
-                            <form id="logout-form" action="{{ route('logout') }}" method="POST"　style="display: none;">
+                            <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
                              @csrf
                             </form>
                            </div>
                           </li>
-                          @erdguest
+                          @endguest
                           </ul>
                       </div> 
                   </div>
