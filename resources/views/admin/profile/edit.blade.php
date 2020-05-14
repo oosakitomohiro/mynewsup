@@ -27,9 +27,9 @@
                         </div>
                     </div>
                     <div class="form-group row">
-                        <label class="col-md-2" for="hobby">趣味</label>
+                        <label class="col-md-2" for="age">年齢</label>
                         <div class="col-md-10">
-                            <input type="text" class="form-control" name="hobby" value="{{ $profile_form->hobby }}">
+                            <input type="text" class="form-control" name="age" value="{{ $profile_form->age }}">
                         </div>
                     </div>
                     <div class="form-group row">

@@ -34,7 +34,7 @@
                                 <th width="10%">ID</th>
                                 <th width="10%">氏名</th>
                                 <th width="10%">性別</th>
-                                <th width="10%">趣味</th>
+                                <th width="10%">年齢</th>
                                 <th width="50%">自己紹介欄</th>
                                 <th width="10%">操作</th>
                             </tr>

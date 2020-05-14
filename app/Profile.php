@@ -11,7 +11,7 @@ class Profile extends Model
     public static $rules =array(
       'name' => 'required',
       'gender' => 'required',
-      'hobby' => 'required',
+      'age' => 'required',
       'introduction' => 'required',
       );
        public function profile_histories()
