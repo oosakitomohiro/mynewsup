@@ -17,7 +17,7 @@ class CreateProfilesTable extends Migration
             $table->bigIncrements('id');
             $table->string('name');
             $table->string('gender');
-            $table->string('hobby');
+            $table->integer('age');
             $table->string('introduction');
             $table->timestamps();
         });
