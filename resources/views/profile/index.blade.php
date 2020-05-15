@@ -42,7 +42,7 @@
                                 <div class="gender">
                                     {{ str_limit($post->gender, 150) }}
                                 </div>
-                                  <div class="hobby">
+                                  <div class="age">
                                     {{ str_limit($post->hobby, 150) }}
                                 </div>
                                 <div class="introduction mt-3">
